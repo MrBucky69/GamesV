@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#search-icon {
+  width: 20px; /* Adjust the size as needed */
+  height: auto;
+  cursor: pointer;
+}
+
+#search-input {
+  display: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#search-input.active {
+  display: block;
+}
